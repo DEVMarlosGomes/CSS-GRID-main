@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINHA EMPRESA IMOBVIP</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+    <link rel="shortcut icon" href="icon-logo3.png"
+    
+</head>
+<body>
+    <header>
+        
+        <div class="logo"> <img src="LOGO-PRINCIPAL.png" width="50" height="50" alt=""></div>
+        <h1>MINHA EMPRESA IMOBVIP</h1>
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">Sobre-nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <h1>ImobVip-Imobiliária</h1>
+
+    <section class="container">
+        <!-- Barra lateral -->
+        <div class="sidenav">
+            <h2>Sobre Mim</h2>
+            <p>Sou Corretor de imóveis nesta imobiliária desde 2021 realizando muitos sonhos. Clientes sempre satisfeitos, realizando o sonho do primeiro imóvel ou até mesmo saindo da casa da sogra alugando seu primero imóvel.</p>
+            <ul>
+                <li><a href="">Apartamentos</a></li>
+                <li><a href="">Casas</a></li>
+                <li><a href="">Chácaras</a></li>
+            </ul>
+        </div>
+        
+        <!-- Itens da galeria de imagens -->
+        <div class="item"><img src="vivenda.jpeg" alt="Foto 1"><p>Descrição 1</p></div>
+        <div class="item"><img src="conviva.jpg" alt="Foto 2"><p>Descrição 2</p></div>
+        <div class="item"><img src="chacara.jpeg" alt="Foto 3"><p>Descrição 3</p></div>
+        <div class="item"><img src="alameda.jpeg" alt="Foto 4"><p>Descrição 4</p></div>
+
+        <!-- Rodapé -->
+        <div class="footer">
+            <h3>Entre em Contato</h3>
+            <p>Para alugar ou comprar o seu imóvel, entre em contato através das redes sociais ou envie um e-mail para <a href="corretormarlosgomes@gmail.com">corretormarlosgomes@gmail.com</a>.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_corretormarlosgomes?igsh=bWFmcmJleXR2dG41"><img src="insta.jpg" width="20" height="20" alt="Instagram"></a>
+                <a href="https://www.facebook.com/CorretorMarlosGomes/"><img src="facebook-13.png" width="20" height="20" alt="Facebook"></a>
+                <a href="#"><img src="twitter.png" width="20" height="20" alt="Twitter"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 IMOBVIP-IMOBILIÁRIA.LTDA. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                document.querySelector('footer').style.display = 'block'; // Mostra o footer
+            } else {
+                document.querySelector('footer').style.display = 'none'; // Oculta o footer
+            }
+        };
+    </script>
+</body>
+</html>
+
